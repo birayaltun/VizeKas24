@@ -65,3 +65,4 @@ test_that("spotify_search_artist('The Doors') çağrıldığında döndürdüğ�
   result <- spotify_search_artist("The Doors")
   expect_equal(result$search_results[1, "id"], "22WZ7M8sxp5THdruNY3gXt")
 })
+# 
